@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: SizedBox.expand(
           child: Container(
-            color: Color(0xFF15202D),
+            color: Color(0xFFF8F5F1),
             child: Animation(),
           ),
         ),
@@ -110,8 +109,8 @@ class _AnimationState extends State<Animation> {
               Text(
                 'Hold my box'.toUpperCase(),
                 style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 50.0,
+                    color: Color(0xFF15202D),
+                    fontSize: 40.0,
                     fontWeight: FontWeight.bold),
               ),
             ],
@@ -131,20 +130,20 @@ class _AnimationState extends State<Animation> {
                         child: Text(
                           'Start'.toUpperCase(),
                           style: TextStyle(
-                              color: Color(0x99FFFFFF), fontSize: 70.0),
+                              color: Color(0xFF15202D), fontSize: 70.0),
                         ),
                       ),
                     )
                   : Text(
                       '$_countdown',
                       style:
-                          TextStyle(color: Color(0x99FFFFFF), fontSize: 30.0),
+                          TextStyle(color: Color(0xFF15202D), fontSize: 30.0),
                     ),
               Text(
                 'Score : $_score',
                 style: TextStyle(
                   fontSize: 30.0,
-                  color: Color(0x99FFFFFF),
+                  color: Color(0xFF15202D),
                 ),
               ),
             ],
