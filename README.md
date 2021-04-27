@@ -26,3 +26,6 @@ Desktop View
 <br>
 <br>
 <a href="https://ibb.co/yW0wKRD"><img src="https://i.ibb.co/wMy98LT/Screenshot-2021-04-27-144720.png" alt="Screenshot-2021-04-27-144720" border="0"></a>
+
+## How to enable flutter web
+Refer this link: https://flutter.dev/docs/get-started/web
